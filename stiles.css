@@ -82,3 +82,21 @@ footer{
 	text-align: right;
 	background: #565656;
 }
+@media screen and (max-width: 1025px) {
+	.first{
+		margin-top: 350px;
+		padding-bottom: 150px; ;
+	}	
+	.bg{
+		padding-bottom: 150px;
+		height: 100%;
+		width: 100%;
+	}
+	.vk img, .inst img, .gml img{
+		width: 100px;
+		height: 100px;
+	}
+	.about_me p{
+		font-size: 35px;
+	}
+}
